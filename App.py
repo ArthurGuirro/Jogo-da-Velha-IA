@@ -137,7 +137,10 @@ def play_game():
       while (a!=0 or a!=1 or a!=2 or a!=3 or a!=4 or a!=5 or a!=6 or a!=7 or a!=8):
         print('Movimento invalido, jogue novamente:')
         a=(int(input()))
-      b=a      
+      b=a 
+      #adicionar a jogada do player dentro da draw board
+      #comparar a draw board com o nó da árvore que é igual
+      #fazer a busca
     else:
       print("pc")
       #fazer um metodo para saber qual foi a jogada do player para que a ia saiba escolher onde jogar
